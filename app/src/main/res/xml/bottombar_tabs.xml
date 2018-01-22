@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tabs>
+    <tab
+        icon="@drawable/ic_nearby"
+        id="@+id/tab_nearby"
+        title="Nearby" />
+    <tab
+        icon="@drawable/person"
+        id="@+id/tab_contact"
+        title="Favorites" />
+
+    <tab
+        icon="@drawable/ic_photo"
+        id="@+id/tab_photo"
+        title="Friends" />
+
+    <tab
+        icon="@drawable/ic_info"
+        id="@+id/tab_info"
+
+        />
+</tabs>
+
+    <!--</PreferenceScreen>-->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.phoon.phoon.Momento.Edit_Note">
+
+    <item android:id="@+id/action_back"
+        android:icon="@drawable/ic_action_back"
+        android:title="@string/back"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/action_save"
+        android:icon="@drawable/ic_action_save"
+        android:title="@string/save"
+        android:visible="false"
+        android:enabled="false"
+        app:showAsAction="ifRoom"
+        />
+</menu>

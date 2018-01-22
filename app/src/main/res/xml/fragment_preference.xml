@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="notification_set"
+        android:title="Notification">
+
+        <ListPreference
+            android:key="notification"
+            android:title="Light"
+            android:summary="Set the LED light color of your notification"
+            android:entries="@array/notif_color"
+            android:entryValues="@array/notif_color"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.phoon.phoon.Momento.View_Note">
+    <item android:id="@+id/action_share_sms" android:title="@string/share_via_sms"
+        android:orderInCategory="10" app:showAsAction="never" />
+    <item android:id="@+id/action_share" android:title="@string/share"
+        android:orderInCategory="9" app:showAsAction="never" />
+    <item android:id="@+id/action_back"
+        android:icon="@drawable/ic_action_back"
+        android:title="@string/back"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+    <item android:id="@+id/action_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:title="@string/edit"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/action_discard"
+        android:icon="@drawable/ic_action_discard"
+        android:title="@string/discard"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
